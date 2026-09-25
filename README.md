@@ -98,7 +98,7 @@ A 3-page Power BI dashboard covers:
     ├── function_app.py
     ├── model_def.py
     |── fraud_modet.pt
-    |── Host.json
+    |── host.json
     |── requirements.txt
 ```
 
