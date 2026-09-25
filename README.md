@@ -97,7 +97,9 @@ A 3-page Power BI dashboard covers:
 └── fraud_scoring/              # Azure Functions deployment
     ├── function_app.py
     ├── model_def.py
-    └── DEPLOYMENT.md
+    |── fraud_modet.pt
+    |── Host.json
+    |── requirements.txt
 ```
 
 ## What I'd Do Next
