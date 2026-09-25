@@ -1,0 +1,8 @@
+azure-functions
+numpy
+
+# CPU-only PyTorch build -- much smaller than the default GPU build, and
+# Azure Functions Consumption plan has no GPU anyway. This line must come
+# before "torch" so pip checks this index first.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
